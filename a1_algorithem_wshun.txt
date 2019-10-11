@@ -1,0 +1,24 @@
+OPS435 Assignment 1
+Author: Shun Wang
+Step-by-step instruction in English
+
+1. We create the usage() function to check how many arguments user given,  if the number of arguments more than 4 or 3, and will display the proper usage.
+
+2.  We create the dbda() function to take the date in ‘YYYY/MM/DD’ format in three integers: yyyy,mm, and dd,  and it take the second item N and convert it to a 
+positive or negative interger. Also, this function will calculate the days need to add or subtract and return result.  If the second item N integer greater than 0,
+then it add first integer and return to tomorrow result. However, if the second item N integer less than 0, then it subtract first integer and return to yester result.
+
+3. We create the leap_year() function to take the year in ‘YYYY’ format, if the year is leap year, it will return True, if it is not , it will return False.
+
+4. We create the days_in_mon() function to take give year and calculate the maximum days of each month, it will return the dictionary which includes all the months 
+with its maximum day.
+
+5. For the valid_date()function, it will check the date format in ‘YYYY/MM/DD’ and return true date. If it is not vaild date, it will display difference errors 
+messages. 
+
+6. The tomorrow() function take a date format in ‘YYYY/MM/DD’  and return next day. If the tomorrow day is less maximum month, the tomorrow day turns to 1, while 
+adding 1 to the month.  If the month is greater than 12, the month turns to 1, while adding 1 to the year.Insert two '/'s, one between 'YYYY' and 'MM', the other between 'MM' 
+and 'DD'in next_date.
+
+7.This yesterday()function almost the same in tomorrow()function, it take a date format in ‘YYYY/MM/DD’  and return before day. If the month equal to 0, while 
+subtract 1 to the year  and setting the month to 12. Insert two '/'s, one between 'YYYY' and 'MM', the other between 'MM' and 'DD'in day_before.
